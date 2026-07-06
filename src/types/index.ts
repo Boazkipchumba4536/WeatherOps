@@ -99,6 +99,8 @@ export interface HistoryEntry {
   riskScore: number;
   riskLevel: RiskLevel;
   operationalStatus: OperationalStatus;
+  lat?: number;
+  lon?: number;
 }
 
 export interface AnalysisFormValues {
